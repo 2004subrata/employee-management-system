@@ -1,8 +1,15 @@
 const employees = [
   {
     id: 1,
-    email: "employee1@example.com",
+    firstName: "Amit",
+    email: "e@e.com",
     password: "123",
+    taskCounts: {
+      active: 1,
+      newTask: 1,
+      completed: 1,
+      failed: 1
+    },
     tasks: [
       {
         title: "Prepare sales report",
@@ -12,7 +19,7 @@ const employees = [
         active: true,
         newTask: true,
         completed: false,
-        failed: false,
+        failed: false
       },
       {
         title: "Client follow-up",
@@ -22,7 +29,7 @@ const employees = [
         active: false,
         newTask: false,
         completed: true,
-        failed: false,
+        failed: false
       },
       {
         title: "Update CRM",
@@ -32,14 +39,21 @@ const employees = [
         active: false,
         newTask: false,
         completed: false,
-        failed: true,
-      },
-    ],
+        failed: true
+      }
+    ]
   },
   {
     id: 2,
+    firstName: "Rahul",
     email: "employee2@example.com",
     password: "123",
+    taskCounts: {
+      active: 1,
+      newTask: 1,
+      completed: 1,
+      failed: 1
+    },
     tasks: [
       {
         title: "Design homepage",
@@ -49,7 +63,7 @@ const employees = [
         active: true,
         newTask: true,
         completed: false,
-        failed: false,
+        failed: false
       },
       {
         title: "Fix UI bugs",
@@ -59,7 +73,7 @@ const employees = [
         active: false,
         newTask: false,
         completed: true,
-        failed: false,
+        failed: false
       },
       {
         title: "Design review",
@@ -69,14 +83,21 @@ const employees = [
         active: false,
         newTask: false,
         completed: false,
-        failed: true,
-      },
-    ],
+        failed: true
+      }
+    ]
   },
   {
     id: 3,
+    firstName: "Sourav",
     email: "employee3@example.com",
     password: "123",
+    taskCounts: {
+      active: 1,
+      newTask: 1,
+      completed: 1,
+      failed: 1
+    },
     tasks: [
       {
         title: "API integration",
@@ -86,7 +107,7 @@ const employees = [
         active: true,
         newTask: true,
         completed: false,
-        failed: false,
+        failed: false
       },
       {
         title: "Write unit tests",
@@ -96,7 +117,7 @@ const employees = [
         active: false,
         newTask: false,
         completed: true,
-        failed: false,
+        failed: false
       },
       {
         title: "Optimize queries",
@@ -106,14 +127,21 @@ const employees = [
         active: false,
         newTask: false,
         completed: false,
-        failed: true,
-      },
-    ],
+        failed: true
+      }
+    ]
   },
   {
     id: 4,
+    firstName: "Priya",
     email: "employee4@example.com",
     password: "123",
+    taskCounts: {
+      active: 1,
+      newTask: 1,
+      completed: 1,
+      failed: 1
+    },
     tasks: [
       {
         title: "Content writing",
@@ -123,7 +151,7 @@ const employees = [
         active: true,
         newTask: true,
         completed: false,
-        failed: false,
+        failed: false
       },
       {
         title: "SEO optimization",
@@ -133,7 +161,7 @@ const employees = [
         active: false,
         newTask: false,
         completed: true,
-        failed: false,
+        failed: false
       },
       {
         title: "Social media post",
@@ -143,14 +171,21 @@ const employees = [
         active: false,
         newTask: false,
         completed: false,
-        failed: true,
-      },
-    ],
+        failed: true
+      }
+    ]
   },
   {
     id: 5,
+    firstName: "Vikram",
     email: "employee5@example.com",
     password: "123",
+    taskCounts: {
+      active: 1,
+      newTask: 1,
+      completed: 1,
+      failed: 1
+    },
     tasks: [
       {
         title: "Server monitoring",
@@ -160,7 +195,7 @@ const employees = [
         active: true,
         newTask: true,
         completed: false,
-        failed: false,
+        failed: false
       },
       {
         title: "Backup data",
@@ -170,7 +205,7 @@ const employees = [
         active: false,
         newTask: false,
         completed: true,
-        failed: false,
+        failed: false
       },
       {
         title: "Security audit",
@@ -180,10 +215,10 @@ const employees = [
         active: false,
         newTask: false,
         completed: false,
-        failed: true,
-      },
-    ],
-  },
+        failed: true
+      }
+    ]
+  }
 ];
 
 const admin = [
