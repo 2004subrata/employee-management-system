@@ -14,16 +14,16 @@ const TaskList = ({ data }) => {
     >
       {data.tasks.map((elem)=> {
         if(elem.active){
-          return <AcceptTask key={Date()}/>
+          return <AcceptTask key={Math.random()} data={elem} />
         }
         if(elem.newTask){
-          <NewTask key={Date()}/>
+          <NewTask key={Math.random()} data={elem} />
         }
         if(elem.completed){
-          <CompleteTask key={Date()}/>
+          <CompleteTask key={Math.random()} data={elem} />
         }
         if(elem.failed){
-          <FailedTask key={Date()}/>
+          <FailedTask key={Math.random()} data={elem} />
         }
       })}
     </div>
